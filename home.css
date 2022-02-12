@@ -136,7 +136,7 @@ li a {
 display: block;
 }  
 hr{
-    color:lightgrey;
+    color:rgb(94, 88, 88);
 }
 /* cart*/
 .cart{
@@ -169,19 +169,18 @@ hr{
     color:#2874f0;
 }   
 .dropbtn_fashion {
-    background-color: #2874f0;
-    color: white;
+    color: black;
     height:40px;
     width:80px;
     margin-top:-3.5%;
-    border:1px solid #2874f0;
+    margin-left: -70%;
 }
 /* Dropdown Content (Hidden by Default) */
 .dropdown_fashion {
     display: none;
     position: absolute;
     background-color: #ffffff;
-    z-index: 1;
+    z-index: 0;
     min-width: 200px;
 }
   
@@ -189,6 +188,7 @@ hr{
 .dropdown_fashion a {
     text-decoration: none;
     display: block;
+   
 }
   
   /* Change color of dropdown links on hover */
@@ -205,6 +205,36 @@ display: block;
     height:550px;
 }
 /* Offer Zone*/
+.TopBrands{
+    height:500px;
+    width:100%;
+    margin-top:2%;
+}
+.Brand_Product{
+    height:280px;
+    width:220px;
+    border:1px solid blue;
+    margin-left:2%;
+    float:left;
+    margin-top:4%;
+    line-height:1.0;
+}
+.Brand_Product>img{
+    height:160px;
+    width:100%;
+}
+.Brand_product:hover{
+    transform:scale(1.1);
+ }
+
+
+
+
+
+
+
+
+
 .topOffers{
     margin-left:4%;
     margin-top:3%;
@@ -230,7 +260,8 @@ display: block;
     color:white;
     font-size: 12px;
     margin-left:2%;
-    display: inline-block;
+    margin-top:3%;
+    float:left;
 }
 .col2{
     height:300px;
@@ -240,7 +271,7 @@ display: block;
     font-size: 12px;
     margin-left:3%;
     margin-top:3%;
-    display: inline-block;
+    float:left;
 }
 .col3{
     height:300px;
@@ -249,13 +280,15 @@ display: block;
     line-height:1.2px;
     font-size: 12px;
     margin-left:3%;
-    margin-top:3%;
-    display: inline-block;
+    margin-top:4%;
+    float:left;
+    margin-top:2%;
 }
 .address{
     margin-left:7%;
     display:inline-block;
     color:white;
+    margin-top:4%;
 }
 .row5{
     height:250px;
@@ -470,3 +503,11 @@ display: block;
         background-color: #fff;
     }
 }
+
+
+
+
+
+/*
+
+*/

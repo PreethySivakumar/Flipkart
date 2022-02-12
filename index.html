@@ -6,8 +6,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/97f33a6782.js" crossorigin="anonymous"></script>
     <title>Online Shopping for Mobile,Electronics,Furnitures,Grocery,Books,Lifestyle and More </title>
-    <link href="Image/logo.png" rel="icon" />
+    <link href="Image/flip_logo.png" rel="icon" />
     <link href="home.css" rel="stylesheet" type="text/css">
+
+
+
 </head>
 
 <body>
@@ -81,15 +84,43 @@
 
         <div class="category">
             <img src="Image/fashion_logo.png" alt=offer style="height:70px;">
-            <p class="fashion">Fashions</p>
+            <div class="dropdown">
+                <button class="dropbtn_fashion">Fashions</button>
+                <div class="dropdown-content">
+                    <a href="#">Women's Kurta</a>
+                    <a href="#">Women's Saree</a>
+                    <a href="#">Women's Bottom</a>
+                    <a href="#">Women's T-shirt</a>
+                    <a href="#">Women's Shoes&Slippe</a>
+                    <a href="#">Men's Shirt</a>
+                    <a href="#">Men's Bottom</a>
+                    <a href="#">Men's Shoes&Slipper</a>
+                </div>
+            </div>
         </div>
         <div class="category">
             <img src="Image/electronics_logo.png" alt=offer style="height:70px;">
-            <p>Electronics</p>
+            <div class="dropdown">
+                <button class="dropbtn_fashion">Electronics</button>
+                <div class="dropdown-content">
+                    <a href="#">Headset</a>
+                    <a href="#">Bluetooth Speaker</a>
+                    <a href="#">Airpod</a>
+                    <a href="#">Camera</a>
+                </div>
+            </div>
         </div>
         <div class="category">
             <img src="Image/home_logo.jpg" alt=offer style="height:70px;">
-            <p>Home</i></p>
+            <div class="dropdown">
+                <button class="dropbtn_fashion">Home</button>
+                <div class="dropdown-content">
+                    <a href="#">Sofa</a>
+                    <a href="#">Bluetooth Speaker</a>
+                    <a href="#">Airpod</a>
+                    <a href="#">Camera</a>
+                </div>
+            </div>
         </div>
         <div class="category">
             <img src="Image/app_logo.png" alt=offer style="height:70px;">
@@ -97,7 +128,15 @@
         </div>
         <div class="category">
             <img src="Image/toy_logo.png" alt=offer style="height:70px;">
-            <p>Beauty,Toys&more</p>
+            <div class="dropdown">
+                <button class="dropbtn_fashion">Beauty,Safety</button>
+                <div class="dropdown-content">
+                    <a href="#">Eye Makeup</a>
+                    <a href="#">Face Makeup</a>
+                    <a href="#">Lip Makeup</a>
+                    <a href="#">Safety Essentials</a>
+                </div>
+            </div>
         </div>
     </div>
     <!--ends-->
@@ -106,16 +145,13 @@
         <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="4000">
-                    <img src="slideshow/SlideImg1.jpg" class="d-block w-100" alt="sale"
-                        style="height:400px;width:100%">
+                    <img src="slideshow/SlideImg1.jpg" class="d-block w-100" alt="sale" style="height:400px;width:100%">
                 </div>
                 <div class="carousel-item" data-bs-interval="4000">
-                    <img src="slideshow/SlideImg2.jpg" class="d-block w-100" alt="..."
-                        style="height:400px;width:100%">
+                    <img src="slideshow/SlideImg2.jpg" class="d-block w-100" alt="..." style="height:400px;width:100%">
                 </div>
                 <div class="carousel-item" data-bs-interval="4000">
-                    <img src="slideshow/SlideImg4.jpg" class="d-block w-100" alt="..."
-                        style="height:400px;width:100%;">
+                    <img src="slideshow/SlideImg4.jpg" class="d-block w-100" alt="..." style="height:400px;width:100%;">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
@@ -133,38 +169,50 @@
     <!--ends-->
     <div class="row4">
         <!--Offer Zone-->
-        <div class="topOffers">
-            <h1>Top Offers</h1>
-            <p><button type="button" class="btn btn-primary">View All</button></p>
-        </div>
-        <div class="card_offer" style="width: 18rem;">
-            <img src="Home/kettle.jpeg" class="card-img-top" alt="kettle">
-            <div class="card-body">
-                <center>
-                    <h5 class="card-title">Electric Kettle</h5>
-                    <p class="card-text" style="color:rgb(117, 212, 117)">Upto 50% off</p>
-                    <p style="color:rgb(219, 213, 213)">Instant Food Maker</p>
-                </center>
+        <div class="TopBrands">
+            <h3>Top Offers</h3>
+            <hr/>
+            <div class="Brand_Product">
+                <img src="Beauty/makeup/sugar_lip.jpg" alt="lipstick">
+                <hr/>
+                <p style="color:Black">Lipstick</p>
+                <p style="color:rgb(96, 214, 96)">35% off</p>
+                <p style="color:Gray">Explore More!</p>
             </div>
-        </div>
-        <div class="card_offer" style="width: 18rem;">
-            <img src="Beauty/Toys/iron_man_toy.jpeg" class="card-img-top" alt="toy">
-            <div class="card-body">
-                <center>
-                    <h5 class="card-title">Iron Man Toy</h5>
-                    <p class="card-text" style="color:rgb(117, 212, 117)">Under ₹499</p>
-                    <p style="color:rgb(219, 213, 213)">Explore More</p>
-                </center>
+            <div class="Brand_Product">
+                <img src="Beauty/makeup/huda_shadow.jpg" alt="lipstick">
+                <hr/>
+                <p style="color:Black">Eyeshadow Palette</p>
+                <p style="color:rgb(96, 214, 96)">61% off</p>
+                <p style="color:Gray">Explore More!</p>
             </div>
-        </div>
-        <div class="card_offer" style="width: 18rem;">
-            <img src="Home/tv.jpeg" class="card-img-top" alt="tv">
-            <div class="card-body">
-                <center>
-                    <h5 class="card-title">Tv Units</h5>
-                    <p class="card-text" style="color:rgb(117, 212, 117)">From ₹2599 </p>
-                    <p style="color:rgb(219, 213, 213)">From Flipkart Homes</p>
-                </center>
+            <div class="Brand_Product">
+                <img src="Electronics/Airpod/boat_airdopes.png" alt="eyeshadow">
+                <hr/>
+                <p style="color:Black">Airdopes</p>
+                <p style="color:rgb(96, 214, 96)">59% off</p>
+                <p style="color:Gray">Explore More!</p>
+            </div>
+            <div class="Brand_Product">
+                <img src="Fashion/jumpsuit/j2.jpg" alt="eyeshadow">
+                <hr/>
+                <p style="color:Black">Women Jumpsuit</p>
+                <p style="color:rgb(96, 214, 96)">77% off</p>
+                <p style="color:Gray">Explore More!</p>
+            </div>
+            <div class="Brand_Product">
+                <img src="Fashion/MenShoe/shoe14.jpg" alt="eyeshadow">
+                <hr/>
+                <p style="color:Black">Men Shoes</p>
+                <p style="color:rgb(96, 214, 96)">29% off</p>
+                <p style="color:Gray">Explore More!</p>
+            </div>
+            <div class="Brand_Product">
+                <img src="Home/dine1.jpg" alt="eyeshadow">
+                <hr/>
+                <p style="color:Black">Furnitures</p>
+                <p style="color:rgb(96, 214, 96)">42% off</p>
+                <p style="color:Gray">Explore More!</p>
             </div>
         </div>
     </div>
@@ -231,12 +279,12 @@
             <hr>
             <div class="card-body">
                 <h5 class="card-title">Apple iphone 13(128GB Storage,pink) <p><i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </p>
-                <p>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </p>
+                    <p>
                     <h3 style="color:tomato">79,999</h3>
                 </h5>
                 <p class="card-text">10% offer on SBI credit card</p>
@@ -249,7 +297,8 @@
             <img src="mobiles/mi/mi2.jpg" class="card-img-top" alt="Redmi">
             <hr>
             <div class="card-body">
-                <h5 class="card-title">Redmi Note9 ProMax(Ocean Blue,8GB RAM,64GB Storage) <p><i class="fas fa-star"></i>
+                <h5 class="card-title">Redmi Note9 ProMax(Ocean Blue,8GB RAM,64GB Storage) <p>
+                        <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -329,7 +378,8 @@
             <img src="Electronics/Headset/b_headset.png" class="card-img-top" alt="Headset">
             <hr>
             <div class="card-body">
-                <h5 class="card-title">realme Buds Wireless 2 Neo with Type-C Fast Charge & Bass Boost+ Bluetooth Headset  (Black, In the Ear)<p><i class="fas fa-star"></i>
+                <h5 class="card-title">realme Buds Wireless 2 Neo with Type-C Fast Charge & Bass Boost+ Bluetooth
+                    Headset (Black, In the Ear)<p><i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -346,17 +396,19 @@
             </div>
         </div>
         <div class="card_product" style="width:400px;">
-            <img src="Electronics/Hometheater/hometheater1.png" class="card-img-top" alt="oneplus" style="margin-top:6%">
+            <img src="Electronics/Hometheater/hometheater1.png" class="card-img-top" alt="oneplus"
+                style="margin-top:6%">
             <hr>
             <div class="card-body">
-                <h5 class="card-title">PHILIPS SPA5162/94 60 W Bluetooth Home Theatre  (Black, 5.1 Channel) <p><i class="fas fa-star"></i>
+                <h5 class="card-title">PHILIPS SPA5162/94 60 W Bluetooth Home Theatre (Black, 5.1 Channel) <p><i
+                            class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="far fa-star"></i>
                     </p>
                     <p>
-                        <h3 style="color:tomato">5,999</h3>
+                    <h3 style="color:tomato">5,999</h3>
                     <h3><strike>6,640</strike></h3>
                     </p>
                 </h5>
@@ -366,18 +418,18 @@
             </div>
         </div>
         <div class="card_product" style="width:400px;">
-            <img src="Electronics/camera/dslr.png" class="card-img-top" alt="oneplus" style="margin-top:12%">
+            <img src="Electronics/camera/cam1.jpeg" class="card-img-top" alt="camera" style="margin-top:12%">
             <hr>
             <div class="card-body">
-                <h5 class="card-title">Poco C31(Blue,8GB RAM,128GB Storage) <p><i class="fas fa-star"></i>
+                <h5 class="card-title">Nikon Z5 Mirrorless Camera 24-70 mm<p><i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="far fa-star"></i>
                     </p>
                     <p>
-                    <h3 style="color:tomato">36,999</h3>
-                    <h3><strike>39,999</strike></h3>
+                    <h3 style="color:tomato">1,39,999</h3>
+                    <h3><strike>1,50,995</strike></h3>
                     </p>
                 </h5>
                 <center>
@@ -385,10 +437,10 @@
                 </center>
             </div>
         </div>
-       
-       
-       
-       
+
+
+
+
     </div>
 </body>
 <footer>
@@ -412,7 +464,7 @@
             <p>FAQ</p>
             <p>Report Infringement</p>
         </div>
-        <div class="col3">
+        <div class="col1">
             <p style="color:rgb(189, 177, 177)">POLICY</p>
             <p>Return Policy</p>
             <p>Terms of Use</p>
@@ -427,7 +479,7 @@
             <p>Twitter</p>
             <p>Youtube</p>
         </div>
-        <div class="col2">
+        <div class="col1">
             <p style="color:rgb(189, 177, 177)">Mail Us:</p>
             <p>Flipkart Internet Private Limited,</p>
             <p>Buildings Alyssa, Begonia &</p>
@@ -436,7 +488,7 @@
             <p>Bengaluru, 560103,</p>
             <p>Karnataka, India</p>
         </div>
-        <div class="col2">
+        <div class="col1">
             <p style="color:rgb(189, 177, 177)">Registered Office Address:</p>
             <p>Flipkart Internet Private Limited,</p>
             <p>Buildings Alyssa, Begonia &</p>
