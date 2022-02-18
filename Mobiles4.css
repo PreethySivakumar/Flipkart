@@ -192,7 +192,7 @@ hr{
 }
 .MobileRow_mi{
     width:78%;
-    height:2200px;
+    height:2700px;
     background-color:white;
     float:left;
     margin-left:1%;
@@ -200,7 +200,7 @@ hr{
 }
 .MobileRow_one{
     width:78%;
-    height:2200px;
+    height:2400px;
     background-color:white;
     float:left;
     margin-left:1%;
@@ -211,12 +211,11 @@ hr{
     background-color:white;
 }
 .mobImg{
-    height:280px;
+    height:340px;
     width:200px;
     float:left;
     margin-top:6%;
     margin-bottom:2%;
-    border:1px solid red;
 }
 .mobImg>img{
     height:280px;
@@ -225,23 +224,21 @@ hr{
     margin-top:6%;
 }
 .mobDes{
-    height:280px;
+    height:340px;
     width:40%;
     margin-left:5%;
     margin-top:6%;
     float:left;
     margin-bottom:2%;
     line-height:1.0;
-    border:1px solid brown;
 }
 .mobPrice{
-    height:280px;
+    height:340px;
     width:20%;
     margin-left:4%;
     margin-top:6%;
     float:left;
     margin-bottom:2%;
-    border:1px solid blue;
 }
 
 .pagination {
