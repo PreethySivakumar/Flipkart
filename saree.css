@@ -192,7 +192,7 @@ hr{
 }
 .kurta{
     width:75%;
-    height:2200px;
+    height:2700px;
     background-color:rgb(255, 255, 255);
     float:left;
     margin-left:1%;
@@ -200,9 +200,9 @@ hr{
 }
 .dress{
     width:28%;
-    height:500px;
-    margin-left:2%;
-    margin-top:2%;
+    height:600px;
+    margin-left:3%;
+    margin-top:5%;
     float:left;
    /* transition:height 200;*/
     
