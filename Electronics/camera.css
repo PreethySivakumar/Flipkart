@@ -67,7 +67,7 @@ a{
 }
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-    background-color: #f1f1f1;
+    background-color: #f1f1f1
 }
   
   /* Show the dropdown menu on hover */
@@ -190,39 +190,64 @@ hr{
 .fa-star-half-alt{
     color:yellow;
 }
-.kurta{
-    width:75%;
-    height:2700px;
-    background-color:rgb(255, 255, 255);
+.CameraRow{
+    width:78%;
+    height:1800px;
+    background-color:white;
     float:left;
     margin-left:1%;
     margin-top:2%;
 }
-.dress{
-    width:28%;
-    height:600px;
-    margin-left:3%;
-    margin-top:5%;
-    float:left;
-   /* transition:height 200;*/
-    
-}
-.dress:hover{
-    transform:scale(1.1);
-}
-.dressImg{
+.camera{
     width:100%;
-    height:380px;
+    background-color:white;
 }
-.dressImg>img{
-    height:380px;
-    width:313px;
+.camImg{
+    height:250px;
+    width:220px;
+    float:left;
+    margin-top:3%;
+    margin-bottom:2%;
 }
-.dressBrand{
-    color:light gray;
-    font-size:15px;
+.camImg>img{
+    height:250px;
+    width:200px;
+    margin-left:3%;
+    margin-top:3%;
 }
-.dressDes{
-    color:rgb(0, 0, 0);
+.camDes{
+    height:250px;
+    width:35%;
+    margin-left:4%;
+    margin-top:3%;
+    float:left;
+    margin-bottom:2%;
+    line-height:1.0;
+}
+.camPrice{
+    height:250px;
+    width:20%;
+    margin-left:4%;
+    margin-top:3%;
+    float:left;
+    margin-bottom:2%;
 }
 
+.pagination {
+    display: inline-block;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+  }
+  
+  .pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;}
