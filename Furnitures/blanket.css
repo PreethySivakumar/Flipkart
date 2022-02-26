@@ -1,0 +1,228 @@
+body{
+    background-color:#f1f3f6;
+}
+.row1{
+    background-color: #2874f0;
+}
+.d-flex{
+    height:70px;
+}
+.d-flex>img{
+    margin-left:14%;
+    background-color: #2874f0;
+}
+.explore{
+    margin-left:-6%;
+    font-size: 15px;
+    font-style: italic;
+    color:white;
+    margin-top:1%;
+}
+.plus{
+    color:rgb(238, 238, 90)
+}
+/****/
+/*searchbar*/
+
+a{
+    text-decoration: none;
+}
+.btn_search{
+    height:40px;
+    margin-left:45%;
+    margin-top:-3.5%;
+    background-color: #fff;
+}
+/***********/
+/*Login dropdown*/
+.dropbtn {
+    background-color: #ffffff;
+    color: rgb(64, 64, 238);
+    font-size: 16px;
+    border: none;
+    cursor: pointer; 
+   
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left:64%;
+    height:30px;
+    margin-top:-4%;  
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    z-index: 1;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+  
+  /* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+/* Change the background color of the dropdown button when the dropdown content is shown */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li a {
+    display: block;
+    width: 60px;
+}    
+/*more dropdown*/
+.fa-angle-down{
+    margin-top:10%;
+    margin-left:8%;
+}
+.dropbtn_more {
+    background-color: #2874f0;
+    color: white;
+    height:40px;
+    width:80px;
+    margin-top:-3.5%;
+    border:1px solid #2874f0;
+}
+  
+  /* The container <div> - needed to position the dropdown content */
+.more {
+    position: relative;
+    display: inline-block;
+    margin-left:75%;
+    font-family:roboto,arial,sans-serif;
+    margin-top:-4%; 
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown_more {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    z-index: 1;
+    min-width: 200px;
+}
+  
+  /* Links inside the dropdown */
+.dropdown_more a {
+    text-decoration: none;
+    display: block;
+}
+  
+  /* Change color of dropdown links on hover */
+.dropdown_more a:hover {
+    background-color: #fffefe;
+    cursor:pointer;
+}
+  
+.more:hover .dropdown_more {
+display: block;
+}  
+hr{
+    color:rgb(15, 15, 15);
+}
+/* cart*/
+.cart{
+    margin-left:86%;
+    width:30px;
+    height:30px;
+    margin-top:-3.5%;
+}
+
+.mobrow1{
+    height:100px;
+    width:100%;
+    background-color:#2874f0;
+    font-size:90%;
+    margin-top:1%;
+}
+.mobrow2{
+    border:1px solid orange;
+    height:140px;
+    width:100%; 
+}
+.mob_brand{
+    margin-top:1%;
+    margin-left:7%;
+    display: inline-block;
+}
+.mob_brand:hover{
+    color:#2874f0;
+}
+.offer_mob{
+    background-size: cover;;
+}
+.Filter_box{
+    margin-top:2%;
+    height:800px;
+    width:300px;
+    margin-left:1%;
+    background-color:white;
+    float:left;
+}
+.filter{
+    margin-top:2%;
+    margin-left:5%;
+    font-family:Roboto,Arial,sans-serif;
+    font-size:18px
+}
+.category_mob{
+    margin-left:5%;
+    font-size:14px;
+    font-family:Roboto,Arial,sans-serif;
+}
+.fa-star{
+    color:rgb(255, 255, 253);
+}
+.Furniture{
+    width:75%;
+    height:1900px;
+    background-color:rgb(255, 255, 255);
+    float:left;
+    margin-left:1%;
+    margin-top:2%;
+}
+.blanket{
+    width:28%;
+    height:600px;
+    margin-left:2%;
+    margin-top:2%;
+    float:left;
+   /* transition:height 200;*/
+    
+}
+.blanket:hover{
+    transform:scale(0.9);
+}
+.blanketImg{
+    width:100%;
+    height:380px;
+}
+.blanketImg>img{
+    height:380px;
+    width:313px;
+}
+.blanketBrand{
+    color:light gray;
+    font-size:15px;
+}
+.blanketDes{
+    color:rgb(41, 37, 37);
+    margin-top: 2%;
+}
+.blanketDes{
+    color:black;
+}
