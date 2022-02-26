@@ -192,14 +192,14 @@ hr{
 }
 .kurta{
     width:75%;
-    height:2700px;
+    height:3300px;
     background-color:rgb(255, 255, 255);
     float:left;
     margin-left:1%;
     margin-top:2%;
 }
 .dress{
-    width:28%;
+    width:30%;
     height:600px;
     margin-left:3%;
     margin-top:5%;
@@ -207,9 +207,9 @@ hr{
    /* transition:height 200;*/
     
 }
-/*.dress:hover{
-    height:50px;
-}*/
+.dress:hover{
+    transform:scale(1.1);
+}
 .dressImg{
     width:100%;
     height:380px;
