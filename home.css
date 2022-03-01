@@ -2,12 +2,18 @@ body{
     margin:auto;
     background: #fff;
 }
+/*Weather*/
+.weather{
+    margin-top:0.5%;
+   
+}
+
 /*flipkart explore plus */
 .row1{
     background-color: #2874f0;
 }
 .d-flex{
-    height:70px;
+    height:50px;
 }
 .d-flex>img{
     margin-left:14%;
@@ -18,7 +24,7 @@ body{
     font-size: 15px;
     font-style: italic;
     color:white;
-    margin-top:1%;
+    margin-top:-0.5%;
 }
 .plus{
     color:rgb(238, 238, 90)
@@ -200,6 +206,21 @@ hr{
 .fashion:hover .dropdown_fashion {
 display: block;
 } 
+#coupon{
+    position:absolute;
+    height:10px;
+    width:10px;
+    margin-left: 26%;
+    
+    margin-top:-18%;
+    z-index:1;
+}
+#coupon>img{
+    height:400px;
+    width:800px;
+    z-index:100;
+    background-size: cover;
+}
  /*Row 4  */
 .row4{
     height:550px;

@@ -11,9 +11,55 @@
 
 <body>
     <div class="row1">
+        <!--Weather-->
+            <div class="d-flex justify-contentpy-3">
+                <div class="weather">
+                    <button onClick="geolocation()" class="btn btn-light" style="margin-left:10%">
+                        <i class="fas fa-cloud-sun"></i>
+                </div>        
+              </button>
+      
+              <p id="out"></p>
+              <div id="icon"></div>
+              <p id="address"></p>
+              <script>
+                var x = document.getElementById("out")
+                var y = document.getElementById("address")
+                var z = document.getElementById('icon')
+                function geolocation() {
+                  if (navigator.geolocation) {
+                    navigator.geolocation.getCurrentPosition(showPosition)
+                  } else {
+                    x.innerText = "Geo Not Supported"
+                  }
+                }
+      
+                function showPosition(data) {
+                  console.log(data)
+                  /*x.innerText=`Latitude is ${data.coords.latitude}, longitude is ${data.coords.longitude}`*/
+                  let lat = data.coords.latitude;
+                  let long = data.coords.longitude
+                  var url = `https://api.openweathermap.org/data/2.5/forecast/daily?lat=${lat}&lon=${long}&mode=json&units=metric&cnt=1&appid=fbf712a5a83d7305c3cda4ca8fe7ef29`
+                  /*var url = `https://maps.googleapis.com/maps/api/geocode/json?latlng=${data.coords.latitude},${data.coords.longitude}&key=`;
+                  */
+                  fetch(url)
+                    .then((res) => res.json())
+                    .then((data) => {
+                      console.log(data)
+                      data.list.map((item) => {
+                        console.log(item.temp.day)
+                        y.innerText = `${item.temp.day}°C and ${item.weather[0].description}`
+                        z.innerHTML = `<img  src='https://openweathermap.org/img/w/${item.weather[0].icon}.png' alt='weather'/>`
+                      })
+      
+                    })
+                }
+              </script>
+             </div> 
+      
         <!--creating flipkart exploreplus -->
         <div class="d-flex justify-content-start">
-            <img src="Image/flipkart_logo 1.png" alt="logo" style="height:30px;margin-top:1%">
+            <img src="Image/flipkart_logo 1.png" alt="logo" style="height:30px;margin-top:-0.5%">
             <a href="flipplus.html" class="explore"><br>Explore <span class="plus">plus</span></a>
         </div>
         <!--searchbar-->
@@ -135,6 +181,7 @@
     </div>
     <!--ends-->
     <div class="row3">
+        
         <!--Slideshow images-->
         <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -159,6 +206,14 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
+         <!--coupon-->
+         <div id="coupon" style="z-index: 100;">
+            <button onclick="closeDiv()">&times;</button>
+            <img src="Image/coupon1.jpg">
+        </div>
+        <script>
+            window.onload = test()
+        </script>
     </div>
     <!--ends-->
     <div class="row4">
