@@ -13,7 +13,7 @@ body{
     background-color: #2874f0;
 }
 .d-flex{
-    height:50px;
+    height:40px;
 }
 .d-flex>img{
     margin-left:14%;
@@ -24,7 +24,7 @@ body{
     font-size: 15px;
     font-style: italic;
     color:white;
-    margin-top:-0.5%;
+    margin-top:-1%;
 }
 .plus{
     color:rgb(238, 238, 90)
